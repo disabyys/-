@@ -9,7 +9,9 @@ using namespace std;
 
 #define MAXVAL 100
 
-int *genRandArray(int size, int maxValue);
+int *genRandArray(int size);
 void print(int *arr);
+int ** genRandMatrix(int size);
+void printMatrix(int** matrix);
 
 #endif
